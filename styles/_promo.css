@@ -1,0 +1,102 @@
+/*________________PROMO_____________________*/
+
+.promo {
+  width: 100%;
+  background: center/cover no-repeat url("../images/promo-bg.png");
+  padding: 53px 0 180px 0;
+}
+
+.promo-wrapper {
+  width: 100%;
+  max-width: 1520px;
+  margin: 0 auto;
+}
+
+.promo-title {
+  font: 500 80px/100% 'IBM Plex Sans';
+  color: #1F1D1F;
+  max-width: 1365px;
+  margin-bottom: 70px;
+}
+
+.promo-text {
+  font: 300 40px/120% 'IBM Plex Sans';
+  color: #1F1D1F;
+  max-width: 725px;
+  margin-bottom: 90px;
+}
+
+.promo-btns__record {
+  margin-right: 45px;
+}
+
+.promo-btns__more {
+  font: 400 20px/140% 'IBM Plex Sans';
+  text-decoration-line: underline;
+  color: #1F1D1F;
+}
+
+@media screen and (max-width: 1520px) {
+  .promo {
+    width: 100%;
+    background: center/cover no-repeat url("../images/promo-bg.png");
+    padding: 43px 40px 127px;
+  }
+
+  .promo-title {
+    font: 600 30px/110% 'IBM Plex Sans';
+    color: #1F1D1F;
+    max-width: 1365px;
+    margin-bottom: 50px;
+  }
+
+  .promo-text {
+    font: 300 24px/120% 'IBM Plex Sans';
+    color: #1F1D1F;
+    max-width: 725px;
+    margin-bottom: 90px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .promo {
+    background: center/cover no-repeat url("../images/promo-bg-m.png");
+    padding: 38px 20px 27px;
+  }
+
+  .promo-title {
+    font: 600 22px/110% 'IBM Plex Sans';
+    color: #1F1D1F;
+    max-width: 1365px;
+    margin-bottom: 199px;
+  }
+
+  .promo-title span {
+    display: block;
+  }
+
+  .promo-text {
+    display: none;
+  }
+
+  .promo-btns {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .promo-btns__record {
+    font: 400 16px/120% 'IBM Plex Sans';
+    color: #F7F9FB;
+    margin-right: 0;
+    padding: 14px 20px;
+    margin-bottom: 10px;
+  }
+
+  .promo-btns__more {
+    font: 400 17px/140% 'IBM Plex Sans';
+    text-decoration-line: underline;
+    color: #1F1D1F;
+  }
+}

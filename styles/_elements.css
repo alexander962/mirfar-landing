@@ -1,0 +1,10 @@
+/*_______UI__________ */
+
+.btn-record {
+  font: 400 20px/120% 'IBM Plex Sans';
+  color: #F7F9FB;
+  text-decoration: none;
+  background: #DF570E;
+  padding: 18px;
+  margin-right: 45px;
+}

@@ -1,0 +1,128 @@
+/*________________INNOVATION_____________________*/
+
+.innovation {
+  width: 100%;
+  padding: 120px 0;
+}
+
+.innovation-wrapper {
+  width: 100%;
+  max-width: 1470px;
+  margin: 0 auto;
+}
+
+.innovation-title {
+  font: 500 60px/100% 'IBM Plex Sans';
+  text-align: center;
+  color: #1F1D1F;
+  margin-bottom: 70px;
+}
+
+.innovation-info {
+  display: flex;
+  align-items: flex-start;
+}
+
+.innovation-info__text {
+  width: 100%;
+  max-width: 659px;
+  margin-left: 42px;
+  font: 400 22px/110% 'IBM Plex Sans';
+  color: #1F1D1F;
+}
+
+.innovation-info__text p {
+  margin-bottom: 22px;
+}
+
+.innovation-info__text p:last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 1520px) {
+  .innovation-wrapper {
+    width: 100%;
+    max-width: 1470px;
+    padding: 0 40px;
+  }
+
+  .innovation-info__text {
+    font: 400 20px/110% 'IBM Plex Sans';
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .innovation-wrapper {
+    width: 100%;
+    max-width: 1470px;
+    padding: 0 40px;
+  }
+
+  .innovation-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .innovation-info__text {
+    font: 400 20px/110% 'IBM Plex Sans';
+    margin-left: 0;
+    max-width: 100%;
+  }
+
+  .innovation-info__img {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .innovation-info__img img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .innovation {
+    width: 100%;
+    padding: 30px 0 80px;
+  }
+
+  .innovation-wrapper {
+    padding: 0;
+  }
+
+  .innovation-title {
+    font: 700 22px/110% 'IBM Plex Sans';
+    margin-bottom: 30px;
+    padding: 0 20px;
+  }
+
+  .innovation-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .innovation-info__img {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .innovation-info__img img {
+    width: 100%;
+  }
+
+  .innovation-info__text {
+    width: 100%;
+    max-width: 100%;
+    margin-left: 0;
+    font: 400 14px/110% 'IBM Plex Sans';
+    color: #1F1D1F;
+    padding: 0 19px;
+  }
+
+  .innovation-info__text p {
+    margin-bottom: 22px;
+  }
+}
