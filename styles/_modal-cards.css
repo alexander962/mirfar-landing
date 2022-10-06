@@ -1,0 +1,53 @@
+.modal-cards {
+  position: fixed;
+  padding: 83px 0 80px;
+  width: 100vw;
+  height: 100vh;
+  max-height: 100%;
+  top: 0;
+  left: 0;
+  background: #ffffff;
+  transform: translateY(120vh);
+  transition: all .7s;
+}
+
+.modal-cards.active {
+  transform: translateY(0);
+}
+
+.modal-cards__wrapper {
+  position: relative;
+  max-width: 1420px;
+  margin: 0 auto;
+  max-height: 100%;
+}
+
+.modal-cards__close {
+  position: absolute;
+  top: 0;
+  right: -40px;
+  cursor: pointer;
+}
+
+.modal-cards__blocks {
+  width: 100%;
+  max-height: calc(100vh - 163px);
+  overflow-y: scroll;
+}
+
+.modal-cards__blocks .cards-wrapper__outer {
+  margin-bottom: 40px;
+}
+
+.cards-wrapper__text span {
+  font: 700 16px/21px 'IBM Plex Sans';
+  color: #515151;
+}
+
+.cards-wrapper__link-block {
+  display: block;
+  font: 400 18px/23px 'IBM Plex Sans';
+  text-decoration-line: underline;
+  color: #515151;
+  margin-top: 26px;
+}

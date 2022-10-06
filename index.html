@@ -10,6 +10,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"/>
     <title>MirFar</title>
 </head>
 <body>
@@ -58,7 +61,7 @@
         <div class="cause__block-outer">
           <div class="cause__block-inner cause__block-inner_active">
             <div class="cause__block-number">2</div>
-            <p class="cause__block-text">Полная гарантия на все работы 1 ГОД</p>
+            <p class="cause__block-text">Полная гарантия <br/> на все работы <span class="cause__block-text_bold">1 ГОД</span></p>
           </div>
         </div>
         <div class="cause__block-outer">
@@ -82,11 +85,127 @@
         <div class="cause__block-outer">
           <div class="cause__block-inner">
             <div class="cause__block-number">6</div>
-            <p class="cause__block-text">Сделали свет топовым блоггерам <a>Подробнее ></a></p>
+            <p class="cause__block-text">Сделали свет топовым блоггерам <a href="#">Подробнее ></a></p>
           </div>
         </div>
       </div>
     </div>
   </section>
+
+  <section class="cards">
+    <div class="cards-wrapper">
+      <div class="cards-wrapper__blocks cards-wrapper__blocks-desktop">
+        <div class="cards-wrapper__outer cards-wrapper__outer-desktop">
+          <div class="cards-wrapper__inner">
+            <div class="cards-wrapper__img">
+              <img src="images/cards/cards-img-1.png" />
+            </div>
+            <h4 class="cards-wrapper__title">Опыт более 6 лет</h4>
+            <div class="cards-wrapper__text">Позволяет решать поставленные задачи на высшем уровне. Автомобильный свет, это, в первую очередь – БЕЗОПАСНОСТЬ. Доверьтесь профессионалам, наслаждайтесь дорогой и комфортной ездой на любимомс автомобиле</div>
+          </div>
+        </div>
+        <div class="cards-wrapper__outer cards-wrapper__outer-desktop">
+          <div class="cards-wrapper__inner">
+            <div class="cards-wrapper__img">
+              <img src="images/cards/cards-img-2.png" />
+            </div>
+            <h4 class="cards-wrapper__title">Масштаб</h4>
+            <div class="cards-wrapper__text">Наши студии автосвета представлены в 13 городах России от Калининграда до Новосибирска. А также в републике Беларусь и Казахстане.</div>
+          </div>
+        </div>
+        <div class="cards-wrapper__outer cards-wrapper__outer-desktop">
+          <div class="cards-wrapper__inner">
+            <div class="cards-wrapper__img">
+              <img src="images/cards/cards-img-3.png" />
+            </div>
+            <h4 class="cards-wrapper__title">Доверие</h4>
+            <div class="cards-wrapper__text">С нами дружат и нам доверяют блогеры-миллионники и те, кого мы с вами видим на просторах. К нам обращаются за помощью даже те, кто сам занимается автосветом.</div>
+          </div>
+        </div>
+      </div>
+
+      <button class="cards-wrapper__btn">Все преимущества</button>
+      <a href="#" class="cards-wrapper__link">Записаться на установку ></a>
+    </div>
+  </section>
+
+  <section class="modal-cards">
+    <div class="modal-cards__wrapper">
+      <div class="cards-wrapper__blocks modal-cards__blocks">
+        <div class="cards-wrapper__outer">
+          <div class="cards-wrapper__inner">
+            <div class="cards-wrapper__img">
+              <img src="images/cards/cards-img-1.png" />
+            </div>
+            <h4 class="cards-wrapper__title">Опыт более 6 лет</h4>
+            <div class="cards-wrapper__text">Позволяет решать поставленные задачи на высшем уровне. Автомобильный свет, это, в первую очередь – БЕЗОПАСНОСТЬ. Доверьтесь профессионалам, наслаждайтесь дорогой и комфортной ездой на любимомс автомобиле</div>
+          </div>
+        </div>
+        <div class="cards-wrapper__outer">
+          <div class="cards-wrapper__inner">
+            <div class="cards-wrapper__img">
+              <img src="images/cards/cards-img-2.png" />
+            </div>
+            <h4 class="cards-wrapper__title">Масштаб</h4>
+            <div class="cards-wrapper__text">Наши студии автосвета представлены в 13 городах России от Калининграда до Новосибирска. А также в републике Беларусь и Казахстане.</div>
+          </div>
+        </div>
+        <div class="cards-wrapper__outer">
+          <div class="cards-wrapper__inner">
+            <div class="cards-wrapper__img">
+              <img src="images/cards/cards-img-3.png" />
+            </div>
+            <h4 class="cards-wrapper__title">Доверие</h4>
+            <div class="cards-wrapper__text">С нами дружат и нам доверяют блогеры-миллионники и те, кого мы с вами видим на просторах. К нам обращаются за помощью даже те, кто сам занимается автосветом.</div>
+          </div>
+        </div>
+        <div class="cards-wrapper__outer">
+          <div class="cards-wrapper__inner">
+            <div class="cards-wrapper__img">
+              <img src="images/cards/cards-img-4.png" />
+            </div>
+            <h4 class="cards-wrapper__title">ИССЛЕДОВАНИЯ И ИННОВАЦИИ</h4>
+            <div class="cards-wrapper__text">За нашими плечами и многолетним опытом в сфере автосвета стоит не один проект, который в мире ещё никто до этого не делал. Мы фанатики своего дела, поэтому всегда идём до конца, а наши специалисты готовы не спать ночами, чтоб воплатить все поставленные задачи и идеи</div>
+          </div>
+        </div>
+        <div class="cards-wrapper__outer">
+          <div class="cards-wrapper__inner">
+            <div class="cards-wrapper__img">
+              <img src="images/cards/cards-img-5.png" />
+            </div>
+            <h4 class="cards-wrapper__title">ПРОИЗВОДСТВО</h4>
+            <div class="cards-wrapper__text">Мы сами контролируем все процессы производства, поэтому можем дать 100% гарантию на все наши работы и комплектующие. Исходя из этого наша гарантия гораздо больше чем у подобных компаний</div>
+          </div>
+        </div>
+        <div class="cards-wrapper__outer">
+          <div class="cards-wrapper__inner">
+            <div class="cards-wrapper__img">
+              <img src="images/cards/cards-img-6.png" />
+            </div>
+            <h4 class="cards-wrapper__title">ГАРАНТИИ</h4>
+            <div class="cards-wrapper__text"><span>На все виды работ — гарантия 1 год.</span> Мгновенно реагируем и исправляем проблемные ситуации</div>
+            <a href="#" class="cards-wrapper__link-block">Наш гарантийный договор ></a>
+          </div>
+        </div>
+        <div class="cards-wrapper__outer">
+          <div class="cards-wrapper__inner">
+            <div class="cards-wrapper__img">
+              <img src="images/cards/cards-img-7.png" />
+            </div>
+            <h4 class="cards-wrapper__title">ЭКОНОМИЯ</h4>
+            <div class="cards-wrapper__text"><span>Гарантированно наши цены на 15–20% ниже от рыночной стоимости.</span> При этом никогда не экономим на качестве или комплектующих. Изучите другие предложения и убедитесь, что наше — лучшее</div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-cards__close">
+        <img src="images/cards/close.svg" />
+      </div>
+    </div>
+  </section>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script src="js/modal-cards.js"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="js/cards-slider.js"></script>
 </body>
 </html>
