@@ -1,0 +1,125 @@
+/*________________CARDS_____________________*/
+
+.equipment {
+  width: 100%;
+}
+
+.equipment__wrapper {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1466px;
+}
+
+.equipment__title {
+  font: 500 60px/100% 'IBM Plex Sans';
+  text-align: center;
+  color: #1F1D1F;
+  max-width: 1376px;
+  margin-bottom: 50px;
+}
+
+.equipment__block {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 50px;
+}
+
+.equipment__block-img {
+  width: 100%;
+  max-width: 620px;
+  margin-right: 80px;
+}
+
+.equipment__block-img img {
+  width: 100%;
+}
+
+.equipment__block-img_left {
+  margin-right: 0;
+  margin-left: 80px;
+}
+
+.equipment__block-text {
+  font: 400 22px/110% 'IBM Plex Sans';
+  color: #1F1D1F;
+}
+
+.equipment__block-text h4 {
+  font: 500 40px/120% 'IBM Plex Sans';
+  margin-bottom: 25px;
+}
+
+.equipment__block-text p {
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1540px) {
+  .equipment__wrapper {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 0 40px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .equipment__title {
+    font: 700 50px/110% 'IBM Plex Sans';
+    margin-bottom: 30px;
+  }
+
+  .equipment__block {
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+
+  .equipment__block-bottom {
+    flex-direction: column-reverse;
+  }
+
+  .equipment__block-img {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .equipment__wrapper {
+    padding: 0;
+  }
+
+  .equipment__title {
+    font: 700 22px/110% 'IBM Plex Sans';
+    margin-bottom: 30px;
+    padding: 0 20px;
+  }
+
+  .equipment__block {
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+
+  .equipment__block-bottom {
+    flex-direction: column-reverse;
+  }
+
+  .equipment__block-img {
+    margin-bottom: 5px;
+    margin-right: 0;
+    max-width: 100%;
+  }
+
+  .equipment__block-img_left {
+    margin-left: 0;
+  }
+
+  .equipment__block-text {
+    font: 400 13px/17px 'IBM Plex Sans';
+    color: #1F1D1F;
+    padding: 0 20px;
+  }
+
+  .equipment__block-text h4 {
+    font: 600 17px/40px 'IBM Plex Sans';
+    margin-bottom: 0;
+  }
+}

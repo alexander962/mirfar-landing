@@ -1,8 +1,10 @@
-@import "./_elements.css";
-@import "./_promo.css";
+@import "_elements.css";
+@import "_promo.css";
 @import "_innovation.css";
 @import "_cause.css";
 @import "_cards.css";
+@import "_equipment.css";
+@import "_questions.css";
 @import "_modal-cards.css";
 
 * {
