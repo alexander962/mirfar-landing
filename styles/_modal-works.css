@@ -1,0 +1,63 @@
+.modal-works {
+  position: fixed;
+  padding: 83px 0 80px;
+  width: 100vw;
+  height: 100vh;
+  max-height: 100%;
+  top: 0;
+  left: 0;
+  background: #ffffff;
+  transform: translateY(120vh);
+  transition: all .7s;
+}
+
+.modal-works.active {
+  transform: translateY(0);
+}
+
+.modal-works__wrapper {
+  position: relative;
+  max-width: 1420px;
+  margin: 0 auto;
+  max-height: 100%;
+}
+
+.modal-works__close {
+  position: absolute;
+  top: 0;
+  right: -40px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1500px) {
+  .modal-works__wrapper {
+    padding: 0 40px;
+  }
+
+  .modal-works__close {
+    top: -60px;
+    right: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .modal-works {
+    padding: 40px 0 40px;
+  }
+
+  .modal-works__wrapper {
+    padding: 0;
+  }
+
+  .modal-works__close {
+    width: 20px;
+    position: absolute;
+    top: -30px;
+    right: 10px;
+    cursor: pointer;
+  }
+
+  .modal-works__close img {
+    width: 20px;
+  }
+}

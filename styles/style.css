@@ -5,6 +5,9 @@
 @import "_cards.css";
 @import "_equipment.css";
 @import "_questions.css";
+@import "_video.css";
+@import "_works.css";
+@import "_modal-works.css";
 @import "_modal-cards.css";
 
 * {

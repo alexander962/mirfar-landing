@@ -1,0 +1,266 @@
+/*________________VIDEO_____________________*/
+
+.video {
+  width: 100%;
+  padding: 90px 0 120px 0;
+}
+
+.video__bottom {
+  background: #F7F7F9;
+  padding: 90px 0;
+}
+
+.video__wrapper {
+  width: 100%;
+  max-width: 1210px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.video__title {
+  font: 500 60px/100% 'IBM Plex Sans';
+  color: #1F1D1F;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.video__subtitle {
+  font: 500 40px/120% 'IBM Plex Sans';
+  color: #1F1D1F;
+  text-align: center;
+  margin-bottom: 29px;
+}
+
+.video__iframe {
+  width: 100%;
+  height: 650px;
+}
+
+.prev-video__left {
+  position: absolute;
+  top: 50%;
+  left: -161px;
+  cursor: pointer;
+  margin-top: -50px;
+}
+
+.prev-video__right {
+  position: absolute;
+  top: 50%;
+  right: -161px;
+  cursor: pointer;
+  margin-top: -50px;
+}
+
+.video__block-btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 57px;
+}
+
+.video__btn {
+  font: 400 22px/110% 'IBM Plex Sans';
+  color: #F7F9FB;
+  background: #DF570E;
+  padding: 15px 40px;
+  margin-right: 40px;
+}
+
+.video__link {
+  font: 400 18px/23px 'IBM Plex Sans';
+  text-decoration-line: underline;
+  color: #1F1D1F;
+}
+
+@media screen and (max-width: 1600px) {
+  .video__wrapper {
+    max-width: 1000px;
+  }
+}
+
+@media screen and (max-width: 1390px) {
+  .video__wrapper {
+    max-width: 800px;
+  }
+
+  .video__iframe {
+    width: 100%;
+    height: 400px;
+  }
+
+  .video__title {
+    margin-bottom: 30px;
+  }
+
+  .video__subtitle {
+    margin-bottom: 29px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .video__wrapper {
+    max-width: 1200px;
+    padding: 0 40px;
+  }
+
+  .video__iframe {
+    width: 100%;
+    height: 650px;
+  }
+
+  .video .slick-dots.slider__dots li.slick-active {
+    opacity: 1;
+    width: 120px;
+    height: 5px;
+  }
+
+  .video .slick-dots.slider__dots li button:before {
+    color: transparent;
+    font-size: 20px;
+    opacity: 1;
+    width: 60px;
+    height: 5px;
+    line-height: 18px;
+  }
+
+  .video .slick-dots.slider__dots li.slick-active button:before {
+    color: transparent;
+    background: #DF570E;
+    border-radius: 20px;
+    opacity: 1;
+    width: 120px;
+    height: 5px;
+  }
+
+  .video .slick-dots.slider__dots li.slick-active button {
+    color: transparent;
+    background: #DF570E;
+    border-radius: 20px;
+    opacity: 1;
+    width: 120px;
+    height: 5px;
+  }
+
+  .video .slick-dots.slider__dots li button {
+    color: transparent;
+    background: #7B7B7B;
+    border-radius: 20px;
+    width: 60px;
+    height: 5px;
+    padding: 0;
+  }
+
+  .video .slick-dots.slider__dots li {
+    color: transparent;
+    width: 60px;
+    height: 5px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .video__bottom {
+    background: #FFFFFF;
+    padding: 90px 0;
+  }
+
+  .video__wrapper {
+    max-width: 1200px;
+    padding: 0;
+  }
+
+  .video__iframe {
+    width: 100%;
+    height: 150px;
+    padding: 0 5px;
+  }
+
+  .video__title {
+    font: 700 13px/110% 'IBM Plex Sans';
+    color: #DF570E;
+    margin-bottom: 10px;
+    padding: 0 20px;
+  }
+
+  .video__subtitle {
+    font: 700 22px/110% 'IBM Plex Sans';
+    margin-bottom: 30px;
+    padding: 0 30px;
+  }
+
+  .video__block-btns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 57px;
+  }
+
+  .video__btn {
+    font: 400 16px/120% 'IBM Plex Sans';
+    padding: 14px 20px;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .video__link {
+    font: 400 12px/120% 'IBM Plex Sans';
+  }
+
+  .cards-wrapper__outer.cards-wrapper__outer-mobile {
+    display: block;
+  }
+
+  .video .slick-dots.slider__dots li.slick-active {
+    opacity: 1;
+    width: 41px;
+    height: 5px;
+  }
+
+  .video .slick-dots.slider__dots li button:before {
+    color: transparent;
+    font-size: 20px;
+    opacity: 1;
+    width: 19px;
+    height: 5px;
+    line-height: 18px;
+  }
+
+  .video .slick-dots.slider__dots li.slick-active button:before {
+    color: transparent;
+    background: #DF570E;
+    border-radius: 20px;
+    opacity: 1;
+    width: 41px;
+    height: 5px;
+  }
+
+  .video .slick-dots.slider__dots li.slick-active button {
+    color: transparent;
+    background: #DF570E;
+    border-radius: 20px;
+    opacity: 1;
+    width: 41px;
+    height: 5px;
+  }
+
+  .video .slick-dots.slider__dots li button {
+    color: transparent;
+    background: #7B7B7B;
+    border-radius: 20px;
+    width: 19px;
+    height: 5px;
+    padding: 0;
+  }
+
+  .video .slick-dots.slider__dots li {
+    color: transparent;
+    width: 19px;
+    height: 5px;
+  }
+
+  .video .slick-list.draggable {
+    padding: 0 15px !important;
+  }
+}

@@ -3,12 +3,15 @@ jQuery(document).ready(function() {
     if ($(window).width() < 768) {
       $('.cards-wrapper__blocks-desktop').slick({
         dots: true,
-        infinite: true,
+        dotsClass: 'slick-dots slider__dots',
+        infinite: false,
         speed: 500,
-        fade: true,
-        cssEase: 'linear',
+        // fade: true,
+        // cssEase: 'linear',
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        centerMode: true,
+        // leftPadding: '12px',
       });
     } else {
       $(".cards-wrapper__blocks-desktop").slick("unslick");
