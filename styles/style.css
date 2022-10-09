@@ -7,6 +7,9 @@
 @import "_questions.css";
 @import "_video.css";
 @import "_works.css";
+@import "_stages.css";
+@import "_entry.css";
+@import "_form.css";
 @import "_modal-works.css";
 @import "_modal-cards.css";
 
@@ -14,6 +17,6 @@
   box-sizing: border-box;
 }
 
-p, h2, h3, h4, ul {
+p, h2, h3, h4, h5, ul {
   margin: 0;
 }

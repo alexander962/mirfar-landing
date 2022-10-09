@@ -102,7 +102,7 @@
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   .cards-wrapper__title {
     font: 600 18px/40px 'IBM Plex Sans';
     color: #1F1D1F;
