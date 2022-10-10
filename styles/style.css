@@ -10,11 +10,16 @@
 @import "_stages.css";
 @import "_entry.css";
 @import "_form.css";
+@import "_gallery.css";
 @import "_modal-works.css";
 @import "_modal-cards.css";
 
 * {
   box-sizing: border-box;
+}
+
+.mirfar-landing {
+  overflow: hidden;
 }
 
 p, h2, h3, h4, h5, ul {
