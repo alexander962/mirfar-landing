@@ -35,6 +35,20 @@
   overflow-y: scroll;
 }
 
+.modal-cards__blocks::-webkit-scrollbar {
+  width: 5px;
+}
+
+.modal-cards__blocks::-webkit-scrollbar-track {
+  background: #F7F7F9;
+  border-radius: 20px;
+}
+
+.modal-cards__blocks::-webkit-scrollbar-thumb {
+  background: #DF570E;
+  border-radius: 20px;
+}
+
 .modal-cards__blocks .cards-wrapper__outer {
   margin-bottom: 40px;
 }

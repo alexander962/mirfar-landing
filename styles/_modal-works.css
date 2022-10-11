@@ -48,6 +48,20 @@
   padding-right: 27px;
 }
 
+.modal-works__blocks::-webkit-scrollbar {
+  width: 5px;
+}
+
+.modal-works__blocks::-webkit-scrollbar-track {
+  background: #F7F7F9;
+  border-radius: 20px;
+}
+
+.modal-works__blocks::-webkit-scrollbar-thumb {
+  background: #DF570E;
+  border-radius: 20px;
+}
+
 .modal-works__left {
   width: 100%;
   max-width: 420px;

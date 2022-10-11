@@ -8,7 +8,7 @@ jQuery(document).ready(function() {
     }, 600)
   })
 
-  $(".modal-works__close").on('click', () => {
+  $(".modal-works__close, .modal-works__left-btn").on('click', () => {
     $(".modal-works").removeClass("active");
     setTimeout(() => {
       itemsArray.each((_, item) => {

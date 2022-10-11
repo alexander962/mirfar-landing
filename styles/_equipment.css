@@ -2,6 +2,7 @@
 
 .equipment {
   width: 100%;
+  padding: 0 0 70px 0;
 }
 
 .equipment__wrapper {
@@ -83,6 +84,11 @@
 }
 
 @media screen and (max-width: 768px) {
+  .equipment {
+    width: 100%;
+    padding: 0 0 0 0;
+  }
+
   .equipment__wrapper {
     padding: 0;
   }
